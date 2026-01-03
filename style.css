@@ -1,0 +1,81 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: url('https://i.postimg.cc/4NJRTCdN/background.jpg') no-repeat center center fixed;
+background-size: cover;
+color:darkblack;
+}
+header {
+background:linear-gradient(to right,brown,beige, brown);
+padding: 20px;
+text-align: center;
+}
+nav {
+background:black;
+padding: 10px;
+text-align: center;
+}
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+nav a:hover {
+text-decoration: underline;
+}
+.hero {
+padding: 40px;
+text-align: center;
+background: rgba(0, 0, 0, 0.5);
+}
+.products {
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+}
+.product-card {
+background:#BC8F8F;
+padding: 20px;
+width: 180px;
+text-align: center;
+border-radius: 10px;
+}
+.product-card img {
+width: 100%;
+border-radius:20px;
+}
+form {
+width: 300px;
+margin: 40px auto;
+}
+input, select, textarea, button {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+border: none;
+}
+button {
+background-color: #008040;
+color: white;
+cursor: pointer;
+}
+button:hover {
+background-color: #00b050;
+}
+.register-container {
+background-color: rgba(0, 0, 0, 100);
+padding: 30px;
+border-radius:35px;
+width: 350px;
+text-align: center;
+margin:50px auto;
+color: white;  
+}
+footer {
+background: rgba(0, 0, 0, 0.8);
+padding: 10px;
+text-align: center;
+}

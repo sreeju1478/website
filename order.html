@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order - OrderSite</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="order.html">Order</a>
+<a href="contact.html">Contact</a>
+<a href="register.html">Register</a>
+</nav>
+<style>
+body{
+background:url('https://t3.ftcdn.net/jpg/02/51/17/00/360_F_251170082_EvoNCQIHp1zW5K1efnHmW6cYebmAFeMJ.jpg');
+background-size:cover;
+}
+h1{
+text-align:center;
+}
+</style>
+<h1>Place Your Order</h1>
+<form>
+<input type="text" name="fullname" placeholder="Full Name" required>
+<input type="email" name="email" placeholder="Email" required>
+<select required>
+<option value="">Select Product</option>
+<option>Product 1 - ₹60</option>
+<option>Product 2 - ₹100</option>
+<option>Product 3 - ₹150</option>
+<option>Product 4 - ₹90</option>
+</select>
+<input type="number" name="quantity" placeholder="Quantity" min="1" required>
+<textarea name="address" placeholder="Delivery Address" required></textarea>
+<button type="submit">Place Order</button>
+</form>
+</body>
+</html>
